@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:focusable="true"
     android:layout_height="wrap_content"
     android:layout_margin="10dp">
     <TextView
@@ -21,5 +22,29 @@
         android:layout_below="@+id/nonbre"
         tools:text = "apellido"/>
 
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_centerHorizontal="true"
+        android:text="delate" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="74dp"
+        android:layout_height="31dp"
+        android:layout_alignEnd="@id/button"
+        android:layout_marginEnd="-79dp"
+        android:text="add" />
+
+    <ImageButton
+        android:id="@+id/btnv0"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignStart="@id/button"
+        android:layout_marginStart="-87dp"
+        android:src="@mipmap/preview"
+        android:text="Button" />
 
 </RelativeLayout>
